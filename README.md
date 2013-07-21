@@ -9,15 +9,21 @@ How to use:
 1. Copy and add file BcryptDbAdapter.php to your project
 
 2. Define you namespace for BcryptDbAdapter class instead of:
-<pre>namespace Admin\Service\Auth\Adapter;</pre>
+<pre>namespace SomeModule\Auth\Adapter;</pre>
 
 3. Example usage in controller:
 
-<pre>
-	
+- Add namespace for BcryptDbAdapter class usage in your controller like bellow:
+
+<pre> use SomeModule\Auth\Adapter\BcryptDbAdapter as AuthAdapter; </pre>
+
+- Peace of code that handle port request in login action
+
+<pre>	
 $data = $request->getPost();
 
 $dbAdapter = $this->getServiceLocator()->get('Zend\Db\Adapter\Adapter');
+
 
 $authAdapter = new AuthAdapter($dbAdapter);
 

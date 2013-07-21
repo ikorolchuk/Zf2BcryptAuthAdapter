@@ -1,7 +1,7 @@
 <?php
 
 // class namespace
-namespace Admin\Service\Auth\Adapter;
+namespace SomeModule\Auth\Adapter;
 
 use Zend\Authentication\Adapter\DbTable;
 use Zend\Db\Sql;
