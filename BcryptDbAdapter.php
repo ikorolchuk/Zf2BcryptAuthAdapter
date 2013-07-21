@@ -1,5 +1,6 @@
 <?php
 
+// class namespace
 namespace Admin\Service\Auth\Adapter;
 
 use Zend\Authentication\Adapter\DbTable;
