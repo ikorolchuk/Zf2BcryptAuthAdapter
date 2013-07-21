@@ -8,7 +8,7 @@ How to use:
 
 1. Copy and add file BcryptDbAdapter.php to your project
 
-2. Set you namespace for BcryptDbAdapter class instead of:
+2. Define you namespace for BcryptDbAdapter class instead of:
 <pre>namespace Admin\Service\Auth\Adapter;</pre>
 
 3. Example usage in controller:
