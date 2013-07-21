@@ -17,7 +17,7 @@ How to use:
 
 <pre> use SomeModule\Auth\Adapter\BcryptDbAdapter as AuthAdapter; </pre>
 
-- Peace of code that handle port request in login action
+- Peace of code that handle post request in login action
 
 <pre>	
 $data = $request->getPost();
